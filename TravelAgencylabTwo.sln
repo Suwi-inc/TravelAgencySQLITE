@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAgencylabTwo", "TravelAgencylabTwo\TravelAgencylabTwo.csproj", "{9E8F5046-F083-4624-8F11-05C324A8DCF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E8F5046-F083-4624-8F11-05C324A8DCF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8F5046-F083-4624-8F11-05C324A8DCF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8F5046-F083-4624-8F11-05C324A8DCF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8F5046-F083-4624-8F11-05C324A8DCF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F27AA8A5-3142-4368-9D72-41630E1E143A}
+	EndGlobalSection
+EndGlobal
