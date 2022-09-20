@@ -35,6 +35,17 @@ namespace TravelAgencylabTwo
             return tour;
         }
 
+        override
+        public string ToString()
+        {
+            return ("Agreement Date :" + this.agreementDate
+               + "\n" + "Tour price :" + this.tourPrice
+               + "\n" + "Tour Name :" + this.GetTour().name
+               + "\n" + "Tourist :" + this.GetTourist().firstName + " " + this.GetTourist().patronymic + " " + this.GetTourist().lastName
+               + "\n" + "Tour Operator :" + this.GetTour_Operator().firstName + " " + this.GetTour_Operator().patronymic + " " + this.GetTour_Operator().lastName
+               + "\n");
+        }
+
         
     }
 }

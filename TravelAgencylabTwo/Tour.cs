@@ -19,5 +19,14 @@ namespace TravelAgencylabTwo
             this.tourEnd = tourEnd;
             this.city = city;
         }
+        override
+            public string ToString()
+        {
+            return ("Tour Name :" + this.name
+               + "\n" + "Tour Start :" + this.tourStart
+               + "\n" + "Tour End :" + this.tourEnd
+               + "\n" + "Tour City :" + this.city
+               + "\n");
+        }
     }
 }

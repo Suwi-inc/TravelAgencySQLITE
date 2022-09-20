@@ -17,10 +17,6 @@ namespace TravelAgencylabTwo
             get; set;
         }
 
-        public Tourist()
-        {
-
-        }
         public Tourist(string lastName, string firstName, string patronymic, string passportNumber, DateOnly birthDate)
         {
             this.lastName = lastName;
@@ -28,6 +24,16 @@ namespace TravelAgencylabTwo
             this.patronymic = patronymic;
             this.passportNumber = passportNumber;
             this.birthDate = birthDate;
+        }
+        override
+        public string ToString()
+        {
+            return(
+                "First Name :" + this.firstName
+                + "\n" + "Middle Name :" + this.patronymic
+                + "\n" + "Last Name :" + this.lastName
+                + "\n" + "PassPort Number :" + this.passportNumber
+                + "\n" + "Date of birth :" + this.birthDate + "\n" );
         }
 
         

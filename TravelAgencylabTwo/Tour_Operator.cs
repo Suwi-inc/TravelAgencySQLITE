@@ -20,5 +20,14 @@ namespace TravelAgencylabTwo
             this.patronymic = patronymic;
             this.passportNumber = passportNumber;
         }
+        override
+       public string ToString()
+        {
+            return ("First Name :" + this.firstName
+                + "\n" + "Middle Name :" + this.patronymic
+                + "\n" + "Last Name :" + this.lastName
+                + "\n" + "PassPort Number :" + this.passportNumber
+                + "\n");
+        }
     }
 }
